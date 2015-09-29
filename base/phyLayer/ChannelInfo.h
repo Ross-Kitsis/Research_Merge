@@ -4,8 +4,8 @@
 #include <list>
 #include <omnetpp.h>
 
-#include "MiXiMDefs.h"
-#include "base/messages/AirFrame_m.h"
+#include "../utils/MiXiMDefs.h"
+#include "../messages/AirFrame_m.h"
 
 using Veins::AirFrame;
 

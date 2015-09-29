@@ -21,8 +21,8 @@
 #ifndef TraCIDemo11p_H
 #define TraCIDemo11p_H
 
-#include "BaseWaveApplLayer.h"
-#include "modules/mobility/traci/TraCIMobility.h"
+#include "../ieee80211p/BaseWaveApplLayer.h"
+#include "TraCIMobility.h"
 
 using Veins::TraCIMobility;
 using Veins::AnnotationManager;

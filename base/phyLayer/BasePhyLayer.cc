@@ -4,11 +4,11 @@
 
 #include "MacToPhyControlInfo.h"
 #include "PhyToMacControlInfo.h"
-#include "utils/FindModule.h"
+#include "../utils/FindModule.h"
 #include "AnalogueModel.h"
 #include "Decider.h"
-#include "BaseWorldUtility.h"
-#include "BaseConnectionManager.h"
+#include "../modules/BaseWorldUtility.h"
+#include "../connectionManager/BaseConnectionManager.h"
 
 using Veins::AirFrame;
 

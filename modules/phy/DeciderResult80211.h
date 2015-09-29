@@ -8,7 +8,7 @@
 #ifndef DECIDERRESULT80211_H_
 #define DECIDERRESULT80211_H_
 
-#include "MiXiMDefs.h"
+#include "../utils/MiXiMDefs.h"
 #include "Decider.h"
 
 /**

@@ -21,8 +21,8 @@
 #ifndef TraCIDemoRSU11p_H
 #define TraCIDemoRSU11p_H
 
-#include "BaseWaveApplLayer.h"
-#include "modules/world/annotations/AnnotationManager.h"
+#include "../ieee80211p/BaseWaveApplLayer.h"
+#include "AnnotationManager.h"
 
 using Veins::AnnotationManager;
 

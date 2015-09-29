@@ -5,10 +5,10 @@
 #include <vector>
 #include <string>
 
-#include "MiXiMDefs.h"
-#include "base/connectionManager/ChannelAccess.h"
+#include "../utils/MiXiMDefs.h"
+#include "../connectionManager/ChannelAccess.h"
 #include "DeciderToPhyInterface.h"
-#include "MacToPhyInterface.h"
+#include "../phyLayer/MacToPhyInterface.h"
 
 #include "ChannelInfo.h"
 

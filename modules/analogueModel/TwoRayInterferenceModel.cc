@@ -18,10 +18,11 @@
 // Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 //
 
-#include <FWMath.h>
+#include "../../base/math/FWMath.h"
 
-#include "TwoRayInterferenceModel.h"
-#include "base/messages/AirFrame_m.h"
+#include "./TwoRayInterferenceModel.h"
+#include "../../base/messages/AirFrame_m.h"
+#include "../../base/modules/BaseWorldUtility.h"
 
 using Veins::AirFrame;
 

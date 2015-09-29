@@ -21,9 +21,9 @@
 #ifndef ANALOGUEMODEL_TWORAYINTERFERENCEMODEL_H
 #define ANALOGUEMODEL_TWORAYINTERFERENCEMODEL_H
 
-#include "AnalogueModel.h"
-#include "BaseWorldUtility.h"
-#include "phyLayer/MappingBase.h"
+#include "../../base/phyLayer/AnalogueModel.h"
+#include "../../base/phyLayer/Mapping.h"
+#include "../../base/phyLayer/MappingBase.h"
 
 using Veins::AirFrame;
 

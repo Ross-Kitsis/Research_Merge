@@ -15,9 +15,9 @@
 
 #include "JakesFading.h"
 
-#include "BaseWorldUtility.h"
-#include "base/messages/AirFrame_m.h"
-#include "base/connectionManager/ChannelAccess.h"
+#include "../../base/phyLayer/Mapping.h"
+#include "../../base/messages/AirFrame_m.h"
+#include "../../base/connectionManager/ChannelAccess.h"
 
 using Veins::AirFrame;
 using Veins::ChannelAccess;

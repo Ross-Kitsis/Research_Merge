@@ -3,7 +3,7 @@
 
 #include <omnetpp.h>
 
-#include "MiXiMDefs.h"
+#include "../utils/MiXiMDefs.h"
 #include "Decider.h"
 
 /**

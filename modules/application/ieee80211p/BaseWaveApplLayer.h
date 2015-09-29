@@ -22,11 +22,11 @@
 #define BASEWAVEAPPLLAYER_H_
 
 #include <map>
-#include <BaseApplLayer.h>
-#include <Consts80211p.h>
-#include <WaveShortMessage_m.h>
-#include "base/connectionManager/ChannelAccess.h"
-#include <WaveAppToMac1609_4Interface.h>
+#include "../../../base/modules/BaseApplLayer.h"
+#include "../../utility/Consts80211p.h"
+#include "../../messages/WaveShortMessage_m.h"
+#include "../../../base/connectionManager/ChannelAccess.h"
+#include "../../mac/ieee80211p/WaveAppToMac1609_4Interface.h"
 
 #ifndef DBG
 #define DBG EV

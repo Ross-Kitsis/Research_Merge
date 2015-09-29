@@ -16,9 +16,9 @@
 #ifndef JAKESFADING_H_
 #define JAKESFADING_H_
 
-#include "MiXiMDefs.h"
-#include "AnalogueModel.h"
-#include "Mapping.h"
+#include "../../base/utils/MiXiMDefs.h"
+#include "../../base/phyLayer/AnalogueModel.h"
+#include "../../base/phyLayer/Mapping.h"
 
 using Veins::AirFrame;
 

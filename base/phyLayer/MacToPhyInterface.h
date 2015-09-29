@@ -3,8 +3,8 @@
 
 #include <omnetpp.h>
 
-#include "MiXiMDefs.h"
-#include "Signal_.h"
+#include "../utils/MiXiMDefs.h"
+#include "../phyLayer/Signal_.h"
 #include "ChannelState.h"
 #include "PhyUtils.h"
 

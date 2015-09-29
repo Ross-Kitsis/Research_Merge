@@ -29,16 +29,16 @@
 #include <InterfaceTableAccess.h>
 #endif
 
-#include "Mapping.h"
-#include "Signal_.h"
-#include "MacToPhyInterface.h"
-#include "MacToNetwControlInfo.h"
-#include "NetwToMacControlInfo.h"
-#include "MacToPhyControlInfo.h"
+#include "../phyLayer/Mapping.h"
+#include "../phyLayer/Signal_.h"
+#include "../phyLayer/MacToPhyInterface.h"
+#include "../utils/MacToNetwControlInfo.h"
+#include "../utils/NetwToMacControlInfo.h"
+#include "../phyLayer/MacToPhyControlInfo.h"
 #include "AddressingInterface.h"
-#include "base/connectionManager/ChannelAccess.h"
-#include "utils/FindModule.h"
-#include "MacPkt_m.h"
+#include "../connectionManager/ChannelAccess.h"
+#include "../utils/FindModule.h"
+#include "../messages/MacPkt_m.h"
 
 using Veins::ChannelAccess;
 

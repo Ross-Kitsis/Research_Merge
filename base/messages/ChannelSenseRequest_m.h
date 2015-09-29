@@ -16,7 +16,7 @@
 
 
 // cplusplus {{
-#include "ChannelState.h"
+#include "../phyLayer/ChannelState.h"
 // }}
 
 /**

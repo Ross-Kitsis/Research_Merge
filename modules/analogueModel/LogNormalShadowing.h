@@ -16,8 +16,8 @@
 #ifndef LOGNORMALSHADOWING_H_
 #define LOGNORMALSHADOWING_H_
 
-#include "MiXiMDefs.h"
-#include "AnalogueModel.h"
+#include "../../base/utils/MiXiMDefs.h"
+#include "../../base/phyLayer/AnalogueModel.h"
 
 using Veins::AirFrame;
 

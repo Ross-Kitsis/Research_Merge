@@ -11,7 +11,7 @@
 
 #include "../utils/MiXiMDefs.h"
 #include "./DeciderToPhyInterface.h"
-#include "./ChannelSenseRequest_m.h"
+#include "../messages/ChannelSenseRequest_m.h"
 #include "./ChannelState.h"
 
 using Veins::AirFrame;

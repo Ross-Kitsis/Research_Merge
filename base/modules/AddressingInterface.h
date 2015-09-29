@@ -11,7 +11,7 @@
 #include <omnetpp.h>
 
 #include "../utils/MiXiMDefs.h"
-#include "./SimpleAddress.h"
+#include "../utils/SimpleAddress.h"
 
 /**
  * @brief Interface for modules which assign L2 and L3 addresses for modules.

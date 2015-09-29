@@ -1,5 +1,5 @@
 //
-// Generated file, do not edit! Created by nedtool 4.6 from base/messages/AirFrame.msg.
+// Generated file, do not edit! Created by nedtool 4.6 from inet/veins/base/messages/AirFrame.msg.
 //
 
 // Disable warnings about unused variables, empty switch stmts, etc:
@@ -10,7 +10,7 @@
 
 #include <iostream>
 #include <sstream>
-#include "./AirFrame_m.h"
+#include "AirFrame_m.h"
 
 USING_NAMESPACE
 

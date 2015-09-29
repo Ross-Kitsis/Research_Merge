@@ -15,8 +15,8 @@
 
 #include "LogNormalShadowing.h"
 
-#include "Mapping.h"
-#include "base/messages/AirFrame_m.h"
+#include "../../base/phyLayer/Mapping.h"
+#include "../../base/messages/AirFrame_m.h"
 
 using Veins::AirFrame;
 

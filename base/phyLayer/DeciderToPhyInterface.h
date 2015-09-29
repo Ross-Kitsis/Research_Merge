@@ -11,7 +11,7 @@
 #include <list>
 #include <omnetpp.h>
 
-#include "MiXiMDefs.h"
+#include "../utils/MiXiMDefs.h"
 
 namespace Veins {
 class AirFrame;

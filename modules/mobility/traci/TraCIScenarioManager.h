@@ -28,7 +28,7 @@
 #include <omnetpp.h>
 
 #include "inet/Coord.h"
-#include "BaseWorldUtility.h"
+#include "../../base/phyLayer/Mapping.h"
 #include "BaseConnectionManager.h"
 #include "utils/FindModule.h"
 #include "modules/obstacle/ObstacleControl.h"
