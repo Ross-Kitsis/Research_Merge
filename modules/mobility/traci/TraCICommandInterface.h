@@ -5,8 +5,8 @@
 #include <string>
 #include <stdint.h>
 
-#include "modules/mobility/traci/TraCIColor.h"
-#include "modules/mobility/traci/TraCICoord.h"
+#include "./TraCIColor.h"
+#include "./TraCICoord.h"
 
 namespace Veins {
 

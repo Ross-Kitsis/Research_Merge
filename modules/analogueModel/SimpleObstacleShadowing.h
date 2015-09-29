@@ -5,8 +5,8 @@
 #include "../../base/phyLayer/Mapping.h"
 #include "../../base/phyLayer/Mapping.h"
 #include "../obstacle/ObstacleControl.h"
-#include <Move.h>
-#include <Signal_.h>
+#include "../../base/utils/Move.h"
+#include "../../base/phyLayer/Signal_.h"
 #include "../../base/messages/AirFrame_m.h"
 
 using Veins::AirFrame;

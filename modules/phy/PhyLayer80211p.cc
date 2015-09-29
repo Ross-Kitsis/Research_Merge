@@ -25,18 +25,18 @@
 
 #include "PhyLayer80211p.h"
 
-#include "Decider80211p.h"
-#include "SimplePathlossModel.h"
-#include "BreakpointPathlossModel.h"
-#include "analogueModel/LogNormalShadowing.h"
-#include "JakesFading.h"
-#include "PERModel.h"
-#include "SimpleObstacleShadowing.h"
-#include "TwoRayInterferenceModel.h"
-#include "BaseConnectionManager.h"
-#include <Consts80211p.h>
-#include "AirFrame11p_m.h"
-#include "MacToPhyControlInfo.h"
+#include "./Decider80211p.h"
+#include "../analogueModel/SimplePathlossModel.h"
+#include "../analogueModel/BreakpointPathlossModel.h"
+#include "../analogueModel/LogNormalShadowing.h"
+#include "../analogueModel/JakesFading.h"
+#include "../analogueModel/PERModel.h"
+#include "../analogueModel/SimpleObstacleShadowing.h"
+#include "../analogueModel/TwoRayInterferenceModel.h"
+#include "../../base/connectionManager/BaseConnectionManager.h"
+#include "../utility/Consts80211p.h"
+#include "../messages/AirFrame11p_m.h"
+#include "../../base/phyLayer/MacToPhyControlInfo.h"
 
 using Veins::ObstacleControlAccess;
 

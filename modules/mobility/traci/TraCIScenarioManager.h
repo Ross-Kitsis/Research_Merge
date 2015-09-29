@@ -27,15 +27,18 @@
 
 #include <omnetpp.h>
 
-#include "inet/Coord.h"
-#include "../../base/phyLayer/Mapping.h"
-#include "BaseConnectionManager.h"
-#include "utils/FindModule.h"
-#include "modules/obstacle/ObstacleControl.h"
-#include "modules/mobility/traci/TraCIBuffer.h"
-#include "modules/mobility/traci/TraCIColor.h"
-#include "modules/mobility/traci/TraCIConnection.h"
-#include "modules/mobility/traci/TraCICoord.h"
+#include "../../../base/coord/Coord.h"
+#include "../../../base/phyLayer/Mapping.h"
+#include "../../../base/connectionManager/BaseConnectionManager.h"
+#include "../../../base/utils/FindModule.h"
+#include "../../obstacle/ObstacleControl.h"
+#include "./TraCIBuffer.h"
+#include "./TraCIColor.h"
+#include "./TraCIConnection.h"
+#include "./TraCICoord.h"
+#include "../../../base/modules/BaseWorldUtility.h"
+
+
 
 /**
  * @brief

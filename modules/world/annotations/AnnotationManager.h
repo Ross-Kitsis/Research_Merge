@@ -24,8 +24,8 @@
 #include <list>
 
 #include <omnetpp.h>
-#include "utils/FindModule.h"
-#include "inet/Coord.h"
+#include "../../../base/utils/FindModule.h"
+#include "../../../base/coord/Coord.h"
 
 /**
  * manages annotations on the OMNeT++ canvas.

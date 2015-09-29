@@ -18,7 +18,7 @@
 //
 
 #include <set>
-#include "modules/obstacle/Obstacle.h"
+#include "./Obstacle.h"
 
 using Veins::Obstacle;
 

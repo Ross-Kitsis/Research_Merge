@@ -24,11 +24,11 @@
  * and modifications by Christopher Saloman
  */
 
-#include <Decider80211p.h>
-#include <DeciderResult80211.h>
-#include <Mac80211Pkt_m.h>
-#include <Signal_.h>
-#include <AirFrame11p_m.h>
+#include "./Decider80211p.h"
+#include "./DeciderResult80211.h"
+#include "../messages/Mac80211Pkt_m.h"
+#include "../../base/phyLayer/Signal_.h"
+#include "../messages/AirFrame11p_m.h"
 
 using Veins::AirFrame;
 using Veins::Radio;

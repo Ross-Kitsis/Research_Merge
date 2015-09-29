@@ -20,10 +20,10 @@
 
 #include <algorithm>
 
-#include "asserts.h"
+#include "../../../base/utils/asserts.h"
 
-#include "application/traci/TraCITestApp.h"
-#include "mobility/traci/TraCIColor.h"
+#include "./TraCITestApp.h"
+#include "../../mobility/traci/TraCIColor.h"
 
 using Veins::TraCIMobility;
 using Veins::TraCIMobilityAccess;

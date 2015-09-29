@@ -22,7 +22,7 @@
 #include <iostream>
 #include <sstream>
 
-#include "modules/mobility/traci/TraCIMobility.h"
+#include "./TraCIMobility.h"
 
 using Veins::TraCIMobility;
 

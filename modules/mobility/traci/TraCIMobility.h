@@ -28,10 +28,10 @@
 #include <list>
 #include <stdexcept>
 
-#include <BaseMobility.h>
-#include "utils/FindModule.h"
-#include "modules/mobility/traci/TraCIScenarioManager.h"
-#include "modules/mobility/traci/TraCICommandInterface.h"
+#include "../../../base/modules/BaseMobility.h"
+#include "../../../base/utils/FindModule.h"
+#include "./TraCIScenarioManager.h"
+#include "./TraCICommandInterface.h"
 
 /**
  * @brief

@@ -24,15 +24,15 @@
 #include <assert.h>
 #include <omnetpp.h>
 #include <queue>
-#include <BaseLayer.h>
-#include <MacToPhyControlInfo.h>
-#include <PhyLayer80211p.h>
-#include <WaveAppToMac1609_4Interface.h>
-#include <Consts80211p.h>
-#include "utils/FindModule.h"
-#include <Mac80211Pkt_m.h>
-#include <WaveShortMessage_m.h>
-#include <BaseMacLayer.h>
+#include "../../../base/modules/BaseLayer.h"
+#include "../../../base/phyLayer/MacToPhyControlInfo.h"
+#include "../../phy/PhyLayer80211p.h"
+#include "./WaveAppToMac1609_4Interface.h"
+#include "../../utility/Consts80211p.h"
+#include "../../../base/utils/FindModule.h"
+#include "../../messages/Mac80211Pkt_m.h"
+#include "../../messages/WaveShortMessage_m.h"
+#include "../../../base/modules/BaseMacLayer.h"
 
 /**
  * @brief

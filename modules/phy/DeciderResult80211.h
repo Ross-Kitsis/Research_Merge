@@ -8,8 +8,8 @@
 #ifndef DECIDERRESULT80211_H_
 #define DECIDERRESULT80211_H_
 
-#include "../utils/MiXiMDefs.h"
-#include "Decider.h"
+#include "../../base/utils/MiXiMDefs.h"
+#include "../../base/phyLayer/Decider.h"
 
 /**
  * @brief Defines an extended DeciderResult for the 80211 protocol

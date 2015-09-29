@@ -26,8 +26,8 @@
 
 #include <omnetpp.h>
 
-#include "BaseApplLayer.h"
-#include "modules/mobility/traci/TraCIMobility.h"
+#include "../../../base/modules/BaseApplLayer.h"
+#include "../../mobility/traci/TraCIMobility.h"
 
 using Veins::TraCIMobility;
 

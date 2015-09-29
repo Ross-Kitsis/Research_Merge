@@ -21,7 +21,7 @@
 #ifndef MAC80211PTOPHY11PINTERFACE_H_
 #define MAC80211PTOPHY11PINTERFACE_H_
 
-#include <MacToPhyInterface.h>
+#include "../../../base/phyLayer/MacToPhyInterface.h"
 
 /**
  * @brief

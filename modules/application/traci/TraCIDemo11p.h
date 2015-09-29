@@ -22,7 +22,7 @@
 #define TraCIDemo11p_H
 
 #include "../ieee80211p/BaseWaveApplLayer.h"
-#include "TraCIMobility.h"
+#include "../../mobility/traci/TraCIMobility.h"
 
 using Veins::TraCIMobility;
 using Veins::AnnotationManager;

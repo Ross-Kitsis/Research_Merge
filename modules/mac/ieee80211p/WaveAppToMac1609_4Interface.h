@@ -18,7 +18,7 @@
 // Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 //
 
-#include <NetwToMacControlInfo.h>
+#include "../../../base/utils/NetwToMacControlInfo.h"
 #include "../../utility/Consts80211p.h"
 
 #ifndef ___WAVEAPPTOMAC1609_4INTERFACE_H_

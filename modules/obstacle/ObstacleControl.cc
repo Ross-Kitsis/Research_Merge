@@ -21,7 +21,7 @@
 #include <map>
 #include <set>
 
-#include "modules/obstacle/ObstacleControl.h"
+#include "./ObstacleControl.h"
 
 using Veins::ObstacleControl;
 

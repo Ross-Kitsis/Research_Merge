@@ -2,7 +2,7 @@
 
 #include <cassert>
 
-#include "base/messages/AirFrame_m.h"
+#include "../../base/messages/AirFrame_m.h"
 #include "../../base/phyLayer/Mapping.h"
 
 using Veins::AirFrame;

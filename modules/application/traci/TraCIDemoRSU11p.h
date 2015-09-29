@@ -22,7 +22,7 @@
 #define TraCIDemoRSU11p_H
 
 #include "../ieee80211p/BaseWaveApplLayer.h"
-#include "AnnotationManager.h"
+#include "../../world/annotations/AnnotationManager.h"
 
 using Veins::AnnotationManager;
 

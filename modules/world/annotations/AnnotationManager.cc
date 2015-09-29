@@ -20,9 +20,9 @@
 #include <sstream>
 #include <cmath>
 
-#include "modules/world/annotations/AnnotationManager.h"
-#include "modules/mobility/traci/TraCIScenarioManager.h"
-#include "modules/mobility/traci/TraCICommandInterface.h"
+#include "./AnnotationManager.h"
+#include "../../mobility/traci/TraCIScenarioManager.h"
+#include "../../mobility/traci/TraCICommandInterface.h"
 
 Define_Module(Veins::AnnotationManager);
 

@@ -21,16 +21,16 @@
 #ifndef PHYLAYER80211P_H_
 #define PHYLAYER80211P_H_
 
-#include <BasePhyLayer.h>
-#include "Mac80211pToPhy11pInterface.h"
-#include <Decider80211p.h>
-#include <SimplePathlossModel.h>
-#include <LogNormalShadowing.h>
-#include <SNRThresholdDecider.h>
-#include <JakesFading.h>
-#include <BaseConnectionManager.h>
-#include "Decider80211pToPhy80211pInterface.h"
-#include <Move.h>
+#include "../../base/phyLayer/BasePhyLayer.h"
+#include "../mac/ieee80211p/Mac80211pToPhy11pInterface.h"
+#include "./Decider80211p.h"
+#include "../analogueModel/SimplePathlossModel.h"
+#include "../analogueModel/LogNormalShadowing.h"
+#include "./SNRThresholdDecider.h"
+#include "../analogueModel/JakesFading.h"
+#include "../../base/connectionManager/BaseConnectionManager.h"
+#include "./Decider80211pToPhy80211pInterface.h"
+#include "../../base/utils/Move.h"
 
 using Veins::AirFrame;
 

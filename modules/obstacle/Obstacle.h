@@ -22,8 +22,8 @@
 #define OBSTACLE_OBSTACLE_H
 
 #include <vector>
-#include "Coord.h"
-#include "modules/world/annotations/AnnotationManager.h"
+#include "../../base/coord/Coord.h"
+#include "../world/annotations/AnnotationManager.h"
 
 /**
  * stores information about an Obstacle for ObstacleControl

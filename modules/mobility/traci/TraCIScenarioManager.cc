@@ -27,12 +27,12 @@
 
 #define MYDEBUG EV
 
-#include "modules/mobility/traci/TraCIScenarioManager.h"
-#include "modules/mobility/traci/TraCICommandInterface.h"
-#include "modules/mobility/traci/TraCIConstants.h"
-#include "modules/mobility/traci/TraCIMobility.h"
-#include "modules/obstacle/ObstacleControl.h"
-#include "modules/mobility/traci/TraCIScenarioManagerInet.h"
+#include "./TraCIScenarioManager.h"
+#include "./TraCICommandInterface.h"
+#include "./TraCIConstants.h"
+#include "./TraCIMobility.h"
+#include "../../obstacle/ObstacleControl.h"
+#include "./TraCIScenarioManagerInet.h"
 
 using Veins::TraCIScenarioManager;
 using Veins::TraCIBuffer;

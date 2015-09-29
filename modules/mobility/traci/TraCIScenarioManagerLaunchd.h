@@ -23,7 +23,7 @@
 
 #include <omnetpp.h>
 
-#include "modules/mobility/traci/TraCIScenarioManager.h"
+#include "./TraCIScenarioManager.h"
 
 /**
  * @brief

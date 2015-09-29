@@ -1,4 +1,4 @@
-#include "inet/Coord.h"
+#include "../../../base/coord/Coord.h"
 
 #ifdef WITH_INET
 

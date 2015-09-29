@@ -1,7 +1,7 @@
 #ifndef VEINS_MOBILITY_TRACI_TRACICONNECTION_H_
 #define VEINS_MOBILITY_TRACI_TRACICONNECTION_H_
 
-#include "modules/mobility/traci/TraCIBuffer.h"
+#include "./TraCIBuffer.h"
 #include <stdint.h>
 
 namespace Veins {

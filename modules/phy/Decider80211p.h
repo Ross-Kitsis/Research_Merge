@@ -22,10 +22,10 @@
 #ifndef DECIDER80211p_H_
 #define DECIDER80211p_H_
 
-#include <BaseDecider.h>
-#include <Consts80211p.h>
-#include <Mac80211pToPhy11pInterface.h>
-#include <Decider80211pToPhy80211pInterface.h>
+#include "../../base/phyLayer/BaseDecider.h"
+#include "../utility/Consts80211p.h"
+#include "../mac/ieee80211p/Mac80211pToPhy11pInterface.h"
+#include "./Decider80211pToPhy80211pInterface.h"
 
 using Veins::AirFrame;
 
